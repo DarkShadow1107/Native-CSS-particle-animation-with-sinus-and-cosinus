@@ -1,0 +1,6 @@
+- var total = 360 * 3
+
+.center(style=`--total: ${total}`)
+    - var i = total;
+    while i--
+        .particle(style=`--index: ${total - i}`)
